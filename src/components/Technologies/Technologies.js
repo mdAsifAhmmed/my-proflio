@@ -52,7 +52,7 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      {/* <ListItem>
+      <ListItem>
         <picture>
           <DiFirebase size="3rem" />
         </picture>
@@ -60,10 +60,10 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node Js <br/> mongodb
           </ListParagraph>
         </ListContainer>
-      </ListItem> */}
+      </ListItem>
       <ListItem>
         <picture>
           <DiZend size="3rem" />

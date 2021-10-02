@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:40%;
+  height:150px !important;
   object-fit: cover;
   overflow: hidden;
 `
@@ -108,15 +108,16 @@ font-size: 1.6rem;
 padding:.7rem 1.5rem;
 border-radius: 65px;
 transition: 0.5s;
+width:80%;
 background: linear-gradient(
 270deg,#13ADC7 0%,#945DD6 100%);
 border:2px solid #0c1624;
 &:hover{
   ${'' /* background:  linear-gradient(
 270deg,#13ADC7 100%,#945DD6 100%); */}
-background: transparent;
-color:#945DD6;
-border:2px solid #13ADC7;
+${'' /* background: transparent; */}
+color:#fff;
+${'' /* border:2px solid #13ADC7; */}
 }
 `;
 export const CheckOutGitHub = styled.a`
@@ -131,9 +132,9 @@ border:2px solid #0c1624;
 &:hover{
   ${'' /* background:  linear-gradient(
 270deg,#13ADC7 100%,#945DD6 100%); */}
-background: transparent;
-color:#945DD6;
-border:2px solid #13ADC7;
+${'' /* background: transparent; */}
+color:#fff;
+${'' /* border:2px solid #13ADC7; */}
 }
 `;
 

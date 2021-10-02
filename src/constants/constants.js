@@ -9,7 +9,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Protflio",
     description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
     image: "/images/2.png",
     tags: ["JavaScript","Html","Css" ],
@@ -27,7 +27,7 @@ export const projects = [
     id: 2,
   },
   {
-    title: "WebRTC App",
+    title: "Api Chat Both",
     description:"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
     image: "/images/4.png",
     tags: ["JavaScript", "Html","Css"],
