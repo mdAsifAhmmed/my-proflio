@@ -153,12 +153,12 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <DownloadResumePeren>
+      {/* <DownloadResumePeren>
       <Button>
-      <ExternalLinks href="#">Download Resume</ExternalLinks>
+      <ExternalLinks target="_blank" href="https://drive.google.com/drive/u/2/my-drive">Download Resume</ExternalLinks>
       </Button>
 
-      </DownloadResumePeren>
+      </DownloadResumePeren> */}
     </Section>
   );
 };

@@ -58,7 +58,8 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: .5rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  font-size: ${(props) => props.title ? '2rem' : '1.5rem'};
+  text-transform: uppercase;
 `;
 
 export const Hr = styled.hr`
@@ -128,7 +129,7 @@ border-radius: 65px;
 transition: 0.5s;
 background: linear-gradient(
 270deg,#13ADC7 0%,#945DD6 100%);
-border:2px solid #0c1624;
+${'' /* border:2px solid #0c1624; */}
 &:hover{
   ${'' /* background:  linear-gradient(
 270deg,#13ADC7 100%,#945DD6 100%); */}

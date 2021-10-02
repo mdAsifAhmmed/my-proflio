@@ -54,9 +54,9 @@ border:2px solid linear-gradient(
 &:hover{
   ${'' /* background:  linear-gradient(
 270deg,#13ADC7 100%,#945DD6 100%); */}
-background: transparent;
-color:#945DD6;
-border:2px solid #13ADC7;
+${'' /* background: transparent; */}
+color:#FFFFFF;
+${'' /* border:2px solid #13ADC7; */}
 }
 `;
 export const CarouselMobileScrollNode = styled.div`
