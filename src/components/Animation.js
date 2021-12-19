@@ -2,16 +2,16 @@ import CountUp from "react-countup";
 export const LoginAnimation = () => {
   return (
     <div className="w-full h-screen flex items-center justify-center">
-      <div className="loading-content ">
-        <div className="loading-content__center-part">
-        <div className="flex items-center justify-center">
+      <div className="loading-content relative h-52 w-52 rounded-full my-24 m-auto overflow-hidden bg-gray-200">
+        <div className="loading-content__center-part relative top-2/4 left-6 z-50 h-40 w-40 transform -translate-y-2/4 rounded-full bg-gray-200">
+        <div className="flex h-full w-full items-center justify-center">
             <p className="text-2xl">
               <CountUp duration={1} start={0} end={100} />
             </p>
           </div>
         </div>
-        <div className="loading-content__loader">
-          <div className="loading-content__loader-content"></div>
+        <div className="loading-content__loader absolute left-24 top-0 h-full w-4">
+          <div className="loading-content__loader-content h-10 w-full bg-blue-300 "></div>
         </div>
       </div>
     </div>

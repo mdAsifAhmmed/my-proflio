@@ -13,12 +13,12 @@ export default function Projects() {
     }, 1000);
   }, []);
   return (
-    <section className="home_section sec_padding relative">
+    <section className="home_section sec_padding py-16 relative">
       <Header />
       <div className="container">
         <div className="row">
-          <div className="section_title">
-            <h2 className="dark:text-gray-50">recent work</h2>
+          <div className="section_title px-4 w-full text-center mb-10">
+            <h2 className="dark:text-gray-50 text-5xl capitalize">recent work</h2>
           </div>
         </div>
         <div className="projectRow">
@@ -32,14 +32,14 @@ export default function Projects() {
                       className="portfolio_item"
                       key={id}
                     >
-                      <div className="portfolio_item_thumbnail w-full h-96">
+                      <div className="portfolio_item_thumbnail p-2 rounded-xl w-full h-36">
                         <img
                           src={thumbnail}
-                          className="h-full"
+                          className="h-full w-full object-contain rounded-xl"
                           alt="portfolio_thumbnail"
                         />
                       </div>
-                      <h3 className="portfolio_item_title dark:text-gray-50 text-xl capitalize my-5 font-normal">
+                      <h3 className="dark:text-gray-50 text-xl capitalize my-5 ">
                         {title}
                       </h3>
                       <a

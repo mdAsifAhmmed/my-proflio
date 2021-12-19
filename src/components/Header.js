@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 // import Toggole from "../themes/Toggole";
 
 export default function Blogs() {
-  const [lname, setLname] = useState(false);
-  const locationName = useLocation();
-  useEffect(() => {
-    setLname(locationName);
-  }, [locationName]);
+  // const [lname, setLname] = useState(false);
+  // const locationName = useLocation();
+  // useEffect(() => {
+  //   setLname(locationName);
+  // }, [locationName]);
   return (
     <div className="header absolute right-0 top-7">
       <div className="container">
@@ -16,9 +16,8 @@ export default function Blogs() {
             <div className="w-12 h-12 btn toggle-theme mr-3 rounded-full cursor-pointer p-0 flex items-center justify-center">
               <Link to="/">
                 <svg
-                  className="h-6 w-6 text-pink-500 hover:text-gray-50 dark:text-gray-50"
+                  className="h-6 w-6 text-pink-700 hover:text-gray-50 dark:text-gray-50"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -29,18 +28,13 @@ export default function Blogs() {
             </div>
             {/* <Toggole /> */}
             <Link to="/navbar">
-              {lname ? (
+            
                 <button
                   type="button"
                   className="nav_toggle w-12 h-12 ml-3 border-none cursor-pointer rounded-full relative"
                 >
                   <span></span>
                 </button>
-              ) : (
-                <button type="button" className="btn">
-                  <span>close</span>
-                </button>
-              )}
             </Link>
           </div>
         </div>

@@ -18,50 +18,50 @@ export default function Contact() {
       .catch((err) => console.log(err));
   }
   return (
-    <section className="context_section sec_padding relative">
+    <section className="context_section sec_padding py-16 relative">
       <Header />
       <div className="container">
         <div className="row">
-          <div className="section_title">
-            <h2 className="dark:text-gray-50">contact me</h2>
+          <div className="section_title px-4 w-full text-center mb-10">
+            <h2 className="dark:text-gray-50 text-5xl capitalize">contact me</h2>
           </div>
         </div>
         <div className="row">
-          <div data-aos="zoom-out-right" className="contact_form">
+          <div data-aos="zoom-out-right" className="contact_form mb w-6/12 px-4">
             <form action="" onSubmit={sendEmail}>
               <div className="FromRow">
-                <div className="input_group">
+                <div className="w-full mb-7">
                   <input
                     type="text"
                     name="name"
                     placeholder="name"
-                    className="input_control text-gray-800 dark:text-gray-50"
+                    className="bg-gray-50 bg-opacity-60 block w-full h-12 border-solid border-2 border-transparent font-normal text-base pl-5  rounded-3xl text-gray-800 dark:text-gray-50"
                     required
                   />
                 </div>
-                <div className="input_group">
+                <div className="w-full mb-7">
                   <input
                     type="text"
                     name="user_email"
                     placeholder="email"
-                    className="input_control text-gray-800 dark:text-gray-50"
+                    className="bg-gray-50 bg-opacity-60 block w-full h-12 border-solid border-2 border-transparent font-normal text-base pl-5 rounded-3xl text-gray-800 dark:text-gray-50"
                     required
                   />
                 </div>
-                <div className="input_group">
+                <div className="w-full mb-7">
                   <input
                     type="text"
                     name="subject"
                     placeholder="Subject"
-                    className="input_control text-gray-800 dark:text-gray-50"
+                    className="bg-gray-50 bg-opacity-60 block w-full h-12 border-solid border-2 border-transparent font-normal text-base pl-5 rounded-3xl text-gray-800 dark:text-gray-50"
                     required
                   />
                 </div>
-                <div className="input_group">
+                <div className="w-full mb-7">
                   <textarea
                     name="message"
                     placeholder="Message"
-                    className="input_control text-gray-800 dark:text-gray-50"
+                    className="bg-gray-50 bg-opacity-60 block w-full border-solid border-2 border-transparent font-normal text-base pl-5  h-32 rounded-3xl resize-none pt-4 text-gray-800 dark:text-gray-50"
                     required
                   ></textarea>
                 </div>
@@ -71,38 +71,38 @@ export default function Contact() {
               </div>
             </form>
           </div>
-          <div data-aos="zoom-out-left" className="contact_info">
-            <div className="contact_info_item">
-              <h3 className="dark:text-gray-50">Email</h3>
+          <div data-aos="zoom-out-left" className="contact_info w-6/12 px-4">
+            <div className=" mt-0 ml-0 mr-0 mb-8 pl-5">
+              <h3 className="dark:text-gray-50 text-xl capitalize mb-1">Email</h3>
               <p className="dark:text-gray-50">
                 mdasifahmmedofficial@gmail.com
               </p>
             </div>
-            <div className="contact_info_item">
-              <h3 className="dark:text-gray-50">Phone</h3>
+            <div className=" mt-0 ml-0 mr-0 mb-8 pl-5">
+              <h3 className="dark:text-gray-50 text-xl capitalize mb-1">Phone</h3>
               <p className="dark:text-gray-50">+880 01798892867</p>
             </div>
-            <div className="contact_info_item">
-              <h3 className="dark:text-gray-50">Follow Me</h3>
+            <div className=" mt-0 ml-0 mr-0 mb-8 pl-5">
+              <h3 className="dark:text-gray-50 text-xl capitalize mb-1">Follow Me</h3>
               <div className="social_links">
                 <a
                   href="https://github.com/mdAsifAhmmed"
                   target="_blank"
-                  className="btn"
+                  className="btn inline-block px-5 w-fit"
                 >
                   <VscGithub />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/md-asif-ahmed-68162a200/"
                   target="_blank"
-                  className="btn mx-2"
+                  className="btn mx-2 inline-block px-5 w-fit"
                 >
                   <GrLinkedinOption />
                 </a>
                 <a
                   href="https://www.upwork.com/freelancers/~01844d464eed86d1ff"
                   target="_blank"
-                  className="btn"
+                  className="btn inline-block px-5 w-fit"
                 >
                   <SiUpwork />
                 </a>

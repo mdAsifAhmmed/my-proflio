@@ -10,7 +10,7 @@
     flex-direction: column;
   }
   .about_img {
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 30px;
   }
   .about_text,
@@ -18,7 +18,7 @@
   .contact_info,
   .home_text,
   .home_img {
-    width: 100%;
+    width: 100% !important;
   }
   .portfolio_item {
     width: calc((100% / 1) - 30px);
