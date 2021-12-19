@@ -2300,7 +2300,12 @@
   dependencies:
     "querystring" "^0.2.0"
 
-"next@10.2.3":
+"next-themes@^0.0.15":
+  "integrity" "sha512-LTmtqYi03c4gMTJmWwVK9XkHL7h0/+XrtR970Ujvtu3s0kZNeJN24aJsi4rkZOI8i19+qq6f8j+8Duwy5jqcrQ=="
+  "resolved" "https://registry.npmjs.org/next-themes/-/next-themes-0.0.15.tgz"
+  "version" "0.0.15"
+
+"next@*", "next@10.2.3":
   "integrity" "sha512-dkM1mIfnORtGyzw/Yme8RdqNxlCMZyi4Lqj56F01/yHbe1ZtOaJ0cyqqRB4RGiPhjGGh0319f8ddjDyO1605Ow=="
   "resolved" "https://registry.npmjs.org/next/-/next-10.2.3.tgz"
   "version" "10.2.3"
@@ -2824,7 +2829,7 @@
   dependencies:
     "countup.js" "^2.0.8"
 
-"react-dom@^16.6.0 || ^17", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^16.9.0 || ^17", "react-dom@^17.0.2", "react-dom@>= 16.8.0", "react-dom@>=16.6.0", "react-dom@>=16.8", "react-dom@17.0.2":
+"react-dom@*", "react-dom@^16.6.0 || ^17", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^16.9.0 || ^17", "react-dom@^17.0.2", "react-dom@>= 16.8.0", "react-dom@>=16.6.0", "react-dom@>=16.8", "react-dom@17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"

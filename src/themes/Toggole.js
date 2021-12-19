@@ -1,11 +1,17 @@
 import React from "react";
-import { ThemeContext } from "./ThemeContext";
+import { useTheme } from "next-themes";
 const Toggole = () => {
-  const { theme, setTheme } = React.useContext(ThemeContext);
+  const { theme, setTheme } = useTheme();
+  const changeTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light")
+  }
   return (
     <>
-      <span onClick={()=> setTheme(theme === 'dark' ?'light':'dark' )} className="w-12 h-12 btn toggle-theme rounded-full cursor-pointer p-0 flex items-center justify-center">
-        {theme === 'dark' ? (
+      <span
+        onClick={changeTheme}
+        className="w-12 h-12 btn toggle-theme rounded-full cursor-pointer p-0 flex items-center justify-center"
+      >
+        {theme === "dark" ? (
           <>
             <svg
               xmlns="http://www.w3.org/2000/svg"

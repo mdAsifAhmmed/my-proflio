@@ -6,7 +6,7 @@ const Navbar = () => {
     <section className=" sec_padding">
       <Header />
       <div className="container h-4/6">
-        <div className="row justify-center h_screen">
+        <div className="row flex h-full justify-center h_screen">
           <ul className="flex items-center flex-col w-full justify-center">
             <li data-aos="fade-up" data-aos-duration="1400" className=" flex items-center justify-center my w-52 h-12 text-center relative">
               <Link to="/" className=" text-3xl hover_menu_text dark:text-gray-50 btn_bg flex items-center justify-center rounded-xl hover:text-pink-300 font-semibold">Home</Link>

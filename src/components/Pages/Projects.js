@@ -35,7 +35,7 @@ export default function Projects() {
                       <div className="portfolio_item_thumbnail p-2 rounded-xl w-full h-36">
                         <img
                           src={thumbnail}
-                          className="h-full w-full object-contain rounded-xl"
+                          className="h-full w-full object-cover rounded-xl"
                           alt="portfolio_thumbnail"
                         />
                       </div>

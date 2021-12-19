@@ -1,6 +1,20 @@
 /*----------
 animation loading
 -----------*/
+.h_70{
+  height: 90vh;
+}
+.bg_drop_color{
+  overflow: hidden;
+  background-color: var(--white-alpha-25);
+  border: 1px solid var(--white-alpha-40);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  backdrop-filter: var(--backdrop-filter-blur);
+}
 .loading-content {
   box-shadow: 0px 0px 20px #cacaca, 0px 0px 20px #f6f6f6;
 }
