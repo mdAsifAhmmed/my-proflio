@@ -132,7 +132,7 @@ const About = () => {
                 </div>
               </div>
             ) : undefined}
-            <a href="cd.pdf" className="btn mb-3">
+            <a href="https://drive.google.com/file/d/1-dodMAksRW0wfznPs2HIiKWNJEnqrie4/view?usp=sharing" className="btn mb-3">
               download cv
             </a>
             <Link to="/contact" className="btn ml-3">
