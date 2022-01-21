@@ -8,10 +8,10 @@ export default function Blogs() {
       <div className="container">
         <div className="row">
           <div className="items-center flex">
-            <div className="w-12 h-12 btn toggle-theme mr-3 rounded-full cursor-pointer p-0 flex items-center justify-center">
-              <Link to="/">
+            <div className="w-12 h-12 btn toggle-theme mr-3 rounded-full cursor-pointer p-0 ">
+              <Link to="/" className=" w-full h-full flex items-center justify-center hover:text-white">
                 <svg
-                  className="h-6 w-6 text-pink-700 hover:text-gray-50"
+                  className="h-full w-full p-3 text-pink-700 hover:text-gray-50"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"

@@ -18,7 +18,9 @@ export default function Projects() {
       <div className="container">
         <div className="row">
           <div className="section_title px-4 w-full text-center mb-10">
-            <h2 className="dark:text-gray-50 text-5xl capitalize">recent work</h2>
+            <h2 className="dark:text-gray-50 text-5xl capitalize">
+              recent work
+            </h2>
           </div>
         </div>
         <div className="projectRow">
@@ -29,26 +31,27 @@ export default function Projects() {
                   <>
                     <div
                       data-aos="zoom-in-up"
-                      className="portfolio_item"
+                      className="portfolio_item relative"
                       key={id}
                     >
-                      <div className="portfolio_item_thumbnail p-2 rounded-xl w-full h-36">
+                      <div className="portfolio_item_thumbnail p-2 rounded-xl w-full h-40">
                         <img
                           src={thumbnail}
                           className="h-full w-full object-cover rounded-xl"
                           alt="portfolio_thumbnail"
                         />
                       </div>
-                      <h3 className="dark:text-gray-50 text-xl capitalize my-5 ">
-                        {title}
-                      </h3>
                       <a
                         href={linkVisit}
                         target="_blank"
-                        type="button"
-                        className="btn"
+                        className="absolute top-0 left-0 opacity-0 hover:opacity-70 transition  rounded-xl w-full h-full bg-white"
                       >
-                        view project
+                        <div className=" w-full h-full flex flex-col items-center justify-center">
+                          <h3 className=" text-xl text-gray-900 font-bold capitalize mt-5 mb-1 ">
+                            {title}
+                          </h3>
+                          <img className=" w-7 h-7" src="images/icons8-link-24.png" alt="icon" />
+                        </div>
                       </a>
                     </div>
                   </>
