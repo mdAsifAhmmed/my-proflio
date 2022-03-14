@@ -96,7 +96,7 @@ const About = () => {
                 </div>
               </div>
             ) : undefined}
-            <a href="https://drive.google.com/file/d/1FACbiUdX9lzxClCO8lFHEIomJwY9mnbe/view?usp=sharing" className="btn mb-3">
+            <a href="/images/kodezi.png" className="btn mb-3" download>
               download cv
             </a>
             <Link to="/contact" className="btn ml-3">
