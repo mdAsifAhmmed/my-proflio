@@ -96,7 +96,7 @@ const About = () => {
                 </div>
               </div>
             ) : undefined}
-            <a href="/images/kodezi.png" className="btn mb-3" download>
+            <a href="/images/Md-Asif-Ahmed-Resume.pdf" className="btn mb-3" download>
               download cv
             </a>
             <Link to="/contact" className="btn ml-3">
