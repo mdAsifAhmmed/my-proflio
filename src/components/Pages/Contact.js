@@ -23,67 +23,43 @@ export default function Contact() {
       <div className="container">
         <div className="row">
           <div className="section_title px-4 w-full text-center mb-10">
-            <h2 className="dark:text-gray-50 text-5xl capitalize">contact me</h2>
+            <h2 className="dark:text-gray-50 text-5xl capitalize">
+              contact me
+            </h2>
           </div>
         </div>
         <div className="row">
-          <div data-aos="zoom-out-right" className="contact_form mb w-6/12 px-4">
-            <form action="" onSubmit={sendEmail}>
-              <div className="FromRow">
-                <div className="w-full mb-7">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="name"
-                    className="bg-gray-50 bg-opacity-60 block w-full h-12 border-solid border-2 border-transparent font-normal text-base pl-5  rounded-3xl text-gray-800 dark:text-gray-50"
-                    required
-                  />
-                </div>
-                <div className="w-full mb-7">
-                  <input
-                    type="text"
-                    name="user_email"
-                    placeholder="email"
-                    className="bg-gray-50 bg-opacity-60 block w-full h-12 border-solid border-2 border-transparent font-normal text-base pl-5 rounded-3xl text-gray-800 dark:text-gray-50"
-                    required
-                  />
-                </div>
-                <div className="w-full mb-7">
-                  <input
-                    type="text"
-                    name="subject"
-                    placeholder="Subject"
-                    className="bg-gray-50 bg-opacity-60 block w-full h-12 border-solid border-2 border-transparent font-normal text-base pl-5 rounded-3xl text-gray-800 dark:text-gray-50"
-                    required
-                  />
-                </div>
-                <div className="w-full mb-7">
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    className="bg-gray-50 bg-opacity-60 block w-full border-solid border-2 border-transparent font-normal text-base pl-5  h-32 rounded-3xl resize-none pt-4 text-gray-800 dark:text-gray-50"
-                    required
-                  ></textarea>
-                </div>
-                <div className="submit_btn">
-                  <button className="btn">Send Meassage</button>
-                </div>
-              </div>
-            </form>
+          <div
+            data-aos="zoom-out-right"
+            className="contact_form mb w-6/12 px-4"
+          >
+            <div className="about_box h-96 w-96 rounded-xl m-auto">
+              <img
+                className=" w-full h-full object-cover rounded-xl"
+                src="./images/mdasifahmmed.png"
+                alt="about_img"
+              />
+            </div>
           </div>
           <div data-aos="zoom-out-left" className="contact_info w-6/12 px-4">
             <div className=" mt-0 ml-0 mr-0 mb-8 pl-5">
-              <h3 className="dark:text-gray-50 text-xl capitalize mb-1">Email</h3>
+              <h3 className="dark:text-gray-50 text-xl capitalize mb-1">
+                Email
+              </h3>
               <p className="dark:text-gray-50">
                 mdasifahmmedofficial@gmail.com
               </p>
             </div>
             <div className=" mt-0 ml-0 mr-0 mb-8 pl-5">
-              <h3 className="dark:text-gray-50 text-xl capitalize mb-1">Phone</h3>
+              <h3 className="dark:text-gray-50 text-xl capitalize mb-1">
+                Phone
+              </h3>
               <p className="dark:text-gray-50">+880 01798892867</p>
             </div>
             <div className=" mt-0 ml-0 mr-0 mb-8 pl-5">
-              <h3 className="dark:text-gray-50 text-xl capitalize mb-1">Follow Me</h3>
+              <h3 className="dark:text-gray-50 text-xl capitalize mb-1">
+                Follow Me
+              </h3>
               <div className="social_links">
                 <a
                   href="https://github.com/mdAsifAhmmed"

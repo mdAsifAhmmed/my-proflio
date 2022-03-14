@@ -6,6 +6,11 @@
       "linkVisit": "https://md-asif-ahmed.vercel.app/"
     },
     {
+      "thumbnail": "./images/kodezi.png",
+      "title": "The Smartest Way To Code",
+      "linkVisit": "https://www.kodezi.com/"
+    },
+    {
       "thumbnail": "./images/weather.png",
       "title": "weather app",
       "linkVisit": "https://weather-apps-selet-cuntry-name.netlify.app/"
@@ -34,26 +39,6 @@
       "thumbnail": "./images/luf.png",
       "title": "user filer",
       "linkVisit": "https://mdasifahmmed.github.io/liveUserFilter/"
-    },
-    {
-      "thumbnail": "./images/wc.png",
-      "title": "demo protflio",
-      "linkVisit": "https://mdasifahmmed.github.io/welcome-protfio/"
-    },
-    {
-      "thumbnail": "./images/prot.png",
-      "title": "demo protflio",
-      "linkVisit": "https://protflio.vercel.app/"
-    },
-    {
-      "thumbnail": "./images/demopage.png",
-      "title": "demo page",
-      "linkVisit": "https://md-asif-ahmed.vercel.app/"
-    },
-    {
-      "thumbnail": "./images/syco.png",
-      "title": "sycho",
-      "linkVisit": "https://mdasifahmmed.github.io/sycho/"
     }
   ]
 }
